@@ -1,0 +1,65 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:Arial;
+  box-sizing:border-box;
+}
+body{
+  position:relative;
+  background-color:rgb(231, 231, 231);
+  width:100%;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+.outer-container  button{
+  background-color:rgb(0, 191, 255);
+  color:white;
+  font-size:20px;
+  font-weight:bold;
+  border:none;
+  border-radius:3px;
+  padding:10px 25px;
+  cursor:pointer;
+}
+.popup-container{
+  position:absolute;
+  text-align:center;
+  background-color:white;
+  height:350px;
+  width:400px;
+  padding:25px;
+  box-shadow:5px 5px 10px rgba(0,0,0,0.15);
+  display:none;
+}
+.popup-container i{
+  font-size:100px;
+  color:blue;
+}
+.popup-container h2{
+  font-size:26px;
+  margin-top:20px;
+  line-height:35px;
+}
+.popup-container p{
+  margin-top:10px;
+  margin-bottom:20px;
+  font-size:22px;
+  color:rgb(133, 132, 132);
+}
+.popup-container button{
+  padding:15px;
+  margin-left:9px;
+  border:none;
+  border-radius:3px;
+  color:white;
+  cursor:pointer;
+}
+button#cancel{
+  background-color:rgb(164, 163, 163);
+}
+button#delete{
+  background-color:rgb(189, 12, 12);
+}
