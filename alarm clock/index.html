@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Montserrat:wght@400;700&family=Poppins:wght@500;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="outer-container">
+      <img src="./files/clock.svg" alt="alarmClock">
+      <h1></h1>
+      <div class="alarm-time-select-container">
+        <div class="column">
+          <form>
+            <select>
+              <option value="Hour" selected hidden>Hour</option>
+            </select>
+          </form>
+        </div>
+        <div class="column">
+          <form>
+            <select>
+              <option value="Minute" selected hidden>Minute</option>
+            </select>
+          </form>
+        </div>
+        <div class="column">
+          <form>
+            <select>
+              <option value="ampm" selected hidden>AM/PM</option>
+            </select>
+          </form>
+        </div>
+      </div>
+      <button>Set Alarm</button>
+    </div>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
