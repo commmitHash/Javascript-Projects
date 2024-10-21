@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="./style.css">
+    <link name="viewport" content="width=device-width, initial-scale=1,0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/15baf0a069.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="icons-container">
+      <i class="fa-regular fa-message"></i>
+      <!--<i class="fa-solid fa-xmark shown"></i> -->
+    </div>
+    <div class="outer-container">
+      <header><h2>Chatbot</h2></header>
+        <ul class="chatarea">
+          <li class="chat outgoing">
+            <span><i class="fa-solid fa-robot fa-fw"></i></span>
+            <p>Hi there!<br>How can i help you today?</p>
+          </li>
+        </ul>
+        <div class="input-container">
+            <textarea placeholder="Enter a message..." required></textarea>
+            <i class="fa-solid fa-paper-plane" id="send-btn"></i>
+        </div>
+    </div>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
