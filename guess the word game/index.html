@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Word - Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Montserrat:wght@400;700&family=Poppins:wght@500;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Guess the Word</h1>
+      
+      <input type="text" class="get-input">
+      <div class="word-container"></div>
+      <div class="info-container">
+        <p class="hint">Hint: <span>the hint is given here</span></p>
+        <p class="guess">Remaining guesses: <span>8</span></p>
+        <p class="wrong-letters">Wrong letters: <span></span></p>
+      </div>
+      <button id="reset-game">Reset Game</button>
+    </div>
+
+    <script src="./words.js" defer></script>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
