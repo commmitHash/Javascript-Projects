@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generator</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Montserrat:wght@400;700&family=Poppins:wght@500;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="outer-container">
+      <div>
+        <h1>AI Image Generator Tool Javascript</h1>
+        <p>Convert your text into an image within a second using this JavaScript-powered AI Image Generator tool.</p>
+        <form action="#" class="form">
+          <input type="text" placeholder="Describe what you want to see" required>
+          <select>
+            <option>1 image</option>
+            <option>2 images</option>
+            <option>3 images</option>
+            <option selected>4 images</option>
+          </select>
+          <button>Generate</button>
+        </form>
+      </div>
+    </div>
+    <div class="image-container">
+      <div class="icon">
+        <img src="./images/img-1.jpg" class="pic">
+        <a href="./images/img-1.jpg" download="image.jpg">
+          <div class="download-icon">
+            <img src="./images/download.svg" alt="download-icon">
+          </div>
+        </a>
+      </div>
+      <div class="icon">
+        <img src="./images/img-2.jpg" class="pic">
+        <a href="./images/img-2.jpg" download="image2.jpg">
+          <div class="download-icon">
+            <img src="./images/download.svg" alt="download-icon">
+          </div>
+        </a>
+      </div>
+      <div class="icon">
+        <img src="./images/img-3.jpg" class="pic">
+        <a href="./images/img-3.jpg" download="image3.jpg">
+          <div class="download-icon">
+            <img src="./images/download.svg" alt="download-icon">
+          </div>
+        </a>
+      </div>
+      <div class="icon">
+        <img src="./images/img-4.jpg" class="pic">
+        <a href="./images/img-4.jpg" download="image4.jpg">
+          <div class="download-icon">
+            <img src="./images/download.svg" alt="download-icon">
+          </div>
+        </a>
+      </div>
+    </div>
+    <script type="module" src="./script.js"></script>
+    <script type="module" src="./apiKey.js"></script>
+  </body>
+</html>
