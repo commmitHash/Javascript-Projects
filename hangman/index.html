@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hangman Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="results-container-win">
+      <div class="results">
+        <img src="./images/victory.gif">
+        <h2>Congrats!</h2>
+        <p>You found the word: <span>Piano</span></p>
+        <button class="play-again">Play Again</button>
+      </div>
+    </div>
+    <div class="results-container-lose">
+      <div class="results">
+        <img src="./images/lost.gif">
+        <h2>Oops!</h2>
+        <p>The word was: <span>Piano</span></p>
+        <button class="play-again">Play Again</button>
+      </div>
+    </div>
+    <div class="outer-container">
+      <div class="hangman-container">
+        <img src="./images/hangman-0.svg" alt="hangman-img">
+        <h1>hangman game</h1>
+      </div>
+      <div class="words-container">
+        <ul class="guess-container">
+        </ul>
+        <h4>Hint: <b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, sequi.</b></h4>
+        <h4>Incorrect guesses: <span>0 / 6</span></h4>
+        <div class="keywords-container">
+        </div>
+      </div>
+    </div>
+    <script src="./words.js" defer></script>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
