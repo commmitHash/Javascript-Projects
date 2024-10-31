@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <title>Tic Tac Toe Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/15baf0a069.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="select-container">
+      <h2>Tic Tac Toe</h2>
+      <p>Select which you want to be?</p>
+      <div class="player-options">
+        <button id="x">Player (X)</button>
+        <button id="o">Player (O)</button>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="turn-container">
+        <div class="turn-shower">
+          <span>X's Turn</span>
+          <span>O's Turn</span>
+          <div class="slider"></div>
+        </div>
+      </div>
+      <div class="play-area">
+        <section>
+          <span class="box1"></span>
+          <span class="box2"></span>
+          <span class="box3"></span>
+        </section>
+        <section>
+          <span class="box4"></span>
+          <span class="box5"></span>
+          <span class="box6"></span>
+        </section>
+        <section>
+          <span class="box7"></span>
+          <span class="box8"></span>
+          <span class="box9"></span>
+        </section>
+      </div>
+    </div>
+
+    <div class="result-container">
+      <p>Player <span>X</span> has won the game</p>
+      <button>Replay</button>
+    </div>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
